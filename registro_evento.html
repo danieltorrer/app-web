@@ -1,0 +1,95 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Concursos</title>
+	<link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/main.css" />
+	<script src="js/vendor/modernizr.js"></script>
+</head>
+<body>
+	
+	<div class="middle">
+		<div class="middle-child">
+
+			<FORM ACTION = "registro_evento.php" METHOD ="POST" enctype="multipart/form-data" name="form1">
+				<div class="row">
+					<div class="small-12 large-12 columns">
+						<h2 class="text-center">Registro de evento</h2>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="small-12 large-12 columns">
+						<label for="right-label" class="">Nombre del evento:
+							<input TYPE="text" size="10" NAME="nom">
+						</label>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="small-12 large-6 columns">
+						<label for="right-label" class="">Categoria:
+							<input TYPE="text" size="10" NAME="cat">
+						</label>
+					</div>
+					<div class="large-6 small-12 columns">
+						<label for="right-label" class="">Imagen del cartel:
+							<input name="upfile" type="file" id="archivo">
+						</label>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="small-12 large-6 columns">
+						<label for="right-label" class="">Fecha de inicio:
+							<input TYPE="date" size = "10" NAME="fi">
+						</label>
+					</div>
+
+					<div class="small-12 large-6 columns">
+						<label for="right-label" class="">Fecha de Clausura:
+							<input TYPE="date" size = "10" NAME="fc">
+						</label>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="small-12 large-6 columns">
+						<label for="right-label" class="">Fecha de inicio de Inscripciones:
+							<input TYPE="date" size = "10" NAME="fii">
+						</label>
+					</div>
+
+					<div class="small-12 large-6 columns">
+						<label for="right-label" class="">Fecha limite de inscripciones:
+							<input TYPE = "date" SIZE = "10" NAME = "fli">
+						</label>
+					</div>					
+				</div>
+
+				<div class="row">
+
+					<div class="small-12 large-12 columns">
+						<label for="">Describe brevemente el evento
+							<textarea name="des" rows="2" cols="40"></textarea>
+						</label>
+						<button class="expand">Enviar</button>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/foundation.min.js"></script>
+	<script>
+	$(document).foundation();
+	</script>
+</body>
+</html>

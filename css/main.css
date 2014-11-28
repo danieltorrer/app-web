@@ -1,0 +1,133 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a,
+p,
+li {
+  font-family: 'Ubuntu', sans-serif !important;
+}
+.bold {
+  font-weight: 700;
+}
+.light {
+  font-weight: 300;
+}
+button,
+a.button {
+  background-color: #3176a6;
+  box-shadow: 0px 5px 0 0 #255a7f;
+}
+button:hover,
+a.button:hover,
+button:active,
+a.button:active,
+button:focus,
+a.button:focus {
+  background-color: #2b6892;
+}
+html,
+body {
+  height: 100%;
+  background: #dbd5d1;
+}
+.main {
+  margin-top: 60px;
+}
+.content {
+  background: #fdfcfc;
+  border-color: #e9eaed #dfe0e4 #d0d1d5;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+/***** Cursos *****/
+.single-concurso {
+  border-color: #e9eaed #dfe0e4 #d0d1d5;
+  background: #fdfcfc;
+}
+.single-concurso h5.bold {
+  margin-bottom: 0;
+}
+.single-concurso .img-concurso {
+  padding: 15px;
+}
+.single-concurso .content-concurso {
+  padding: 15px 15px 15px 0;
+}
+.single-concurso .fecha {
+  background: #09b39c;
+  border-radius: 3px;
+  padding: 2px 5px;
+  color: #fdfcfc;
+  box-shadow: 3px 3px 0 0 #078272;
+}
+.single-concurso .fecha:hover,
+.single-concurso .fecha:active,
+.single-concurso .fecha:focus {
+  background-color: #089b87;
+}
+.sidebar .side-concurso {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+.sidebar .side-concurso .fecha {
+  width: 100px;
+  background: #09b39c;
+  border-radius: 3px;
+  padding: 2px 5px;
+  color: #fdfcfc;
+  box-shadow: 3px 3px 0 0 #078272;
+}
+.sidebar .side-concurso .fecha:hover,
+.sidebar .side-concurso .fecha:active,
+.sidebar .side-concurso .fecha:focus {
+  background-color: #089b87;
+}
+.sidebar .side-concurso img {
+  padding-left: 15px;
+}
+.middle {
+  background: url("../img/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.middle .middle-child {
+  display: table-cell;
+  vertical-align: middle;
+}
+.middle .middle-child form {
+  width: 80%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #908a8f;
+  border-radius: 10px;
+}
+.middle .middle-child form h2 {
+  color: #fdfcfc;
+}
+
+.font-white{
+  color: #fdfcfc;
+}
+
+.font-white:hover{
+  color: #fdfcfc;
+}
+
+.middle .middle-child form label {
+  color: #fdfcfc;
+}
+.middle .middle-child form input[type="text"],
+.middle .middle-child form input[type="date"],
+.middle .middle-child form textarea,
+.middle .middle-child form input[type="password"] {
+  background: #2f3d4f;
+  border-color: #25313f;
+  color: #fdfcfc;
+}
